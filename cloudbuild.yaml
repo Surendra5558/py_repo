@@ -14,3 +14,5 @@ steps:
     - '--delivery-pipeline=demo-pipeline'
     - '--region=us-central1'
     - '--images=demo-app=gcr.io/$PROJECT_ID/demo-app:$COMMIT_SHA'
+options:
+  logging: CLOUD_LOGGING_ONLY
